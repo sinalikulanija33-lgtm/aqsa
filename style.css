@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 :root{
-    --color-pink: #feecea;
+    --color-blue: #feecea;
     --color-white: #fff;
     --color-black: #333;
-    --color-text-pink: #FF7882;
+    --color-text-blue: #FF7882;
     --color-heart: #FF7882;
     --color-bg-letter: #fff8e4;
     --color-border: #DACCBF;
@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image:linear-gradient(var(--color-pink), var(--color-pink));
+    background-image:linear-gradient(var(--color-blue), var(--color-blue));
 }
 #wrapper{
     position: relative;
@@ -78,7 +78,7 @@ body {
 #btn__letter{
     position: relative;
     margin-top: 30px;
-    background-color: var(--color-text-pink);
+    background-color: var(--color-text-blue);
     outline: none;
     padding: 5px 15px;
     font-size: 1rem;
@@ -158,7 +158,7 @@ body {
     }
 }
 .title .birthday{
-    color: var(--color-text-pink);
+    color: var(--color-text-blue);
 }
 
 .title .hat{
@@ -184,7 +184,7 @@ body {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: var(--color-text-pink);
+    background-color: var(--color-text-blue);
     border-radius: 50px;
     margin-top: 20px;
     font-family: "Sriracha", cursive;
@@ -293,7 +293,7 @@ body {
 .text__cricle{
     width: 100px;
     height: 100px;
-    background-color: var(--color-text-pink);
+    background-color: var(--color-text-blue);
     border-radius: 50%;
     border: 5px solid var(--color-black);
     display: flex;
